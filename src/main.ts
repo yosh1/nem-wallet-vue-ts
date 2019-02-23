@@ -10,9 +10,25 @@ import VueQriously from 'vue-qriously';
 
 Vue.use(Vuetify, {
   theme: {
-    original
-  }
-})
+    original: colors.purple.base,
+    theme: '#FFDEEA',
+    background: '#FFF6EA',
+    view: '#FFA07A',
+    select: '#FF7F78',
+    button: '#5FACEF',
+  },
+  options: {
+    themeVariations: ['original', 'secondary'],
+  },
+});
+
+Vue.use(Toast, {
+  defaultType: 'bottom',
+  duration: 3000,
+
+});
+
+Vue.use(VueQriously);
 
 Vue.config.productionTip = false;
 

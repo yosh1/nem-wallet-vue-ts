@@ -1,0 +1,6 @@
+# mainnet:104, testnet:-104, mijin:96
+NEM_NET = 
+
+# Node URL
+NEM_NODE_HOST = ''
+NEM_NODE_PORT = ''
