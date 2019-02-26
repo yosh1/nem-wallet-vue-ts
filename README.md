@@ -1,29 +1,17 @@
 # nem-wallet
 
-## Project setup
+## How to run ?
+
+### Local
+
 ```
-npm install
+$ yarn install
+$ yarn serve
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Docker
 
-### Compiles and minifies for production
 ```
-npm run build
+$ docker build -t nem-wallet .
+$ docker run -p 8080:8080 -it nem-wallet
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
